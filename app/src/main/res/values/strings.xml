@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">PersonalizedGreeter</string>
-    <string name="strPromptQuestion">What is your first name?</string>
+    <string name="strPromptQuestion">What is your first, middle and last name?</string>
     <string name="strGetGreeted">Get Greeted!</string>
     <string name="strNamePlaceholder">Name</string>
-    <string name="strGreeting">Hello, %1$s!</string>
+    <string name="strNamePlaceholder2">Middle Name</string>
+    <string name="strNamePlaceholder3">Last Name</string>
+    <string name="strGreeting">Hello, %1$s %2$s %3$s!</string>
 </resources>

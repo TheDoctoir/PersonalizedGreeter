@@ -25,10 +25,9 @@
         android:layout_height="wrap_content"
         android:text="@string/strGetGreeted"
         android:id="@+id/btnGreetMe"
-        android:layout_below="@+id/edtxtNameField"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="51dp"
-        android:onClick="greetTheUser" />
+        android:onClick="greetTheUser"
+        android:layout_below="@+id/edtxtNameField3"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -48,4 +47,26 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="42dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="@string/strNamePlaceholder2"
+        android:ems="10"
+        android:id="@+id/edtxtNameField2"
+        android:layout_below="@+id/edtxtNameField"
+        android:layout_alignLeft="@+id/edtxtNameField"
+        android:layout_alignStart="@+id/edtxtNameField" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="@string/strNamePlaceholder3"
+        android:ems="10"
+        android:id="@+id/edtxtNameField3"
+        android:layout_below="@+id/edtxtNameField2"
+        android:layout_alignLeft="@+id/edtxtNameField2"
+        android:layout_alignStart="@+id/edtxtNameField2" />
 </RelativeLayout>
